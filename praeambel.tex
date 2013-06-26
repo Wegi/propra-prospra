@@ -1,0 +1,51 @@
+%Deutsch
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+
+%Mathematische Symbole
+\usepackage{amsmath,amsfonts,amssymb}
+
+%Halbtransparente Overlays
+\setbeamercovered{transparent}
+
+%Keine Navigation
+\beamertemplatenavigationsymbolsempty
+
+%Titelseite
+\title{Programmiersprachen \& -paradigmen}
+\subtitle{ein Überblick}
+\author[Programmierpraktikum 2012]{Programmierpraktikum 2012}
+\date{27.06.2012}
+
+%Tags der PDF Datei
+%TODO Tags%
+\subject{}
+\keywords{}
+
+%Beamer Themes
+\usetheme{Dresden}
+\usecolortheme{orchid}
+\usefonttheme{default}
+\useinnertheme{default}
+\useoutertheme{miniframes}
+
+\setbeamertemplate{blocks}[rounded]
+
+%Farbe
+\usepackage{color}
+
+%Java Listings
+\usepackage{listings}
+\lstloadlanguages{Java}
+
+\lstset{language=Java,frame=single,captionpos=b,
+	numbers=left,basicstyle=\tiny,breaklines=true,
+	showstringspaces=false,
+	keywordstyle=\color[rgb]{0.5,0,0.33},
+	commentstyle=\color[rgb]{0.25,0.5,0.37},
+	stringstyle=\color[rgb]{0.16,0,1}
+}
+
+%Latex Definitionen
+\newcommand{\console}[1]{\begin{center}\colorbox{black}{\parbox{0.8\textwidth}{\textcolor{white}{#1}}}\end{center}}
+

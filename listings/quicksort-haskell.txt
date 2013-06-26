@@ -1,0 +1,2 @@
+ quicksort [] = []
+ quicksort (x:xs) = quicksort [n | n<-xs, n<x] ++ [x] ++ quicksort [n | n<-xs, n>=x]

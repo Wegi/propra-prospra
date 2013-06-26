@@ -1,0 +1,16 @@
+ procedure quicksort(l,r : integer);
+ var x,i,j,tmp : integer;
+ begin
+   if r>l then
+   begin
+     x:=a[l]; i:=l; j:=r+1;
+     repeat
+       repeat  i:=i+1 until a[i]>=x;
+       repeat  j:=j-1 until a[j]<=x;
+       tmp:=a[j]; a[j]:=a[i]; a[i]:=tmp;
+     until j<=i;
+     a[i]:=a[j]; a[j]:=a[l]; a[l]:=tmp;
+     quicksort(l,j-1);
+     quicksort(j+1,r)
+   end
+ end;

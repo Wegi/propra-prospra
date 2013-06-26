@@ -1,0 +1,316 @@
+\documentclass{beamer}
+
+% imports and settings
+\input{praeambel.tex}
+
+\begin{document}
+	\frame{
+		\titlepage
+	}
+	\section{Übersicht}
+	\subsection{}
+	\frame{
+		\frametitle{Übersicht}
+		\begin{itemize}
+			\item Eine kurze Geschichte des Programmierens
+			\item Überblick Sprachen und Paradigmen
+			\item Esoterische Sprachen
+		\end{itemize}
+	}
+	\section{Eine kurze Geschichte}
+	\subsection{}
+	\begin{frame}
+		\frametitle{Jacquard-Webstuhl}
+		\begin{columns}
+			\begin{column}{5cm}
+				\begin{overprint}
+					\includegraphics[width=45mm]{./images/webstuhl.jpg}
+				\end{overprint}
+			\end{column}
+			\begin{column}{5cm}
+				\begin{itemize}
+				\item die erste programmierbare Maschine
+				\item liest das zu webende Muster von Lochkarten
+				\item und das 1805!
+				\end{itemize}
+			\end{column}
+		\end{columns}
+	\end{frame}
+	\begin{frame}
+		\frametitle{Der erste Bug}
+		\begin{columns}
+			\begin{column}{5cm}
+				\begin{overprint}
+					\includegraphics{./images/bug.jpg}
+				\end{overprint}
+			\end{column}
+			\begin{column}{5cm}
+				\begin{itemize}
+				\item 1947 von Grace Hopper aus den Relais gezogen
+				\item "First actual case of bug being found"
+				\end{itemize}
+			\end{column}
+		\end{columns}
+	\end{frame}
+	\frame{
+		\frametitle{Imperative Programmierung - Ausgangspunkt}
+		\begin{itemize}
+			\item Programm ist Folge von Befehlen
+			\item Kontrollfluss durch Sprünge
+			\item Beispiele: frühes Cobol / Algol / Fortran
+			\item Und: Assembler!
+			\item Gegensatz: Deklarative Programmierung - doch dazu später
+		\end{itemize}
+	}
+	\frame{
+		\frametitle{Strukturierte Programmierung}
+		\begin{itemize}
+			\item Erweiterung der imperativen Programmierung
+			\item "Go To Statement Considered Harmful" \\- Edsger W. Dijkstra, 1968
+			\item Kontrollstrukturen werden eingeführt
+			\item Beispiele: Pascal, frühes Basic
+		\end{itemize}
+	}
+	\frame{
+		\frametitle{Prozedurale Programmierung}
+		\begin{itemize}
+			\item Erweiterung der strukturierten Programmierung
+			\item Programme werden in Teilaufgaben / Prozeduren zerlegt
+			\item wesentlicher Abstraktionsschritt ...
+			\item ... in Richtung Hochsprache
+			\item Beispiele: C, Pascal, Fortran, Algol, Cobol
+		\end{itemize}
+	}
+	\frame{
+		\frametitle{Modulare Programmierung}
+		\begin{itemize}
+			\item Erweiterung der prozeduralen Programmierung
+			\item Programmteile werden in Module zusammengefasst
+			\item Module enthalten Methoden und deren Daten
+			\item Und das führt uns zur objektorientierten Programmierung
+			\begin{itemize}
+				\item Klassen statt Module
+				\item Vererbung, Polymorphie, ....
+				\item Beispiele: C++, Java, Python, und viele weitere
+			\end{itemize}
+		\end{itemize}
+	}
+	\frame{
+		\frametitle{Und dann gab es da noch.....}
+		\begin{itemize}
+			\item komponentenorientiert
+			\item aspektorientiert
+			\item generativ
+			\item generisch
+			\item subjektorientiert
+			\item datenstromorientiert
+			\item konkatenativ
+			\item und weitere, mehr oder weniger gruselige Namen
+		\end{itemize}
+	}
+	\section{Sprachen und Paradigmen}
+	\subsection{}
+	\frame{
+		\frametitle{Übersicht}
+		\begin{itemize}
+			\item In diesem Abschnitt "'interessantere"' Sprachen
+			\item Und Beispiele dazu
+			\item Wir werden uns ansehen:
+			\begin{itemize}
+				\item Python - Dynamische Sprache
+				\item Haskell - Funktionale Sprache
+				\item Prolog - Logische Sprache
+			\end{itemize}
+		\end{itemize}
+	}
+	\frame{
+		\frametitle{Dynamisch?}
+		\begin{itemize}
+			\item Typisierung - Duck Typing
+			\item Reflektion / Instrospektion
+			\item late-binding
+			\item häufig interpretiert \& mit Garbage Collection
+		\end{itemize}
+	}
+	\frame{
+		\frametitle{Duck Typing}
+		\includegraphics[width=90mm]{./images/ducktyping.jpg}
+		\begin{center}
+			"'When I see a bird that walks like a duck and swims like a duck and quacks 
+			like a duck, I call that bird a duck."' \newline
+			– James Whitcomb Riley
+		\end{center}
+	}
+	\frame{
+		\frametitle{Beispiele}
+		\begin{center}
+			Python Beispiele
+		\end{center}
+	}
+	\frame{
+		\frametitle{Einschub - Deklarative Programmierung}
+		\begin{itemize}
+			\item Beschreiben des Problems, nicht des Lösungswegs
+			\item Finden der Lösung der Sprache überlassen
+			\item Programme kürzer und leichter zu verstehen
+			\item Bessere Beweisbarkeit
+			\item in der Regel weniger performant
+		\end{itemize}
+	}
+	\begin{frame}[containsverbatim]
+		\frametitle{Deklarativ vs. Imperativ}
+		\begin{center}
+			\lstinputlisting[language={}]{./listings/quicksort-pascal.txt}
+			\lstinputlisting[language={}]{./listings/quicksort-haskell.txt}
+		\end{center}
+	\end{frame}
+	\frame{
+		\frametitle{Funktional?}
+		\begin{itemize}
+			\item Programme bestehen aus Funktionen
+			\begin{itemize}
+				\item hängen nur von ihren Parametern ab
+				\item haben keine Nebeneffekte
+			\end{itemize}
+			\item Funktionen höherer Ordnung
+			\item Rekursive Funktionsaufrufe
+		\end{itemize}
+	}
+	\frame{
+		\frametitle{Auswertungsstrategie}
+		\begin{itemize}
+			\item strict - Argumente vor Funktionen
+			\item eager - Ausdrücke als Ganzes
+			\begin{itemize}
+				\item lazy - Auswertung erst wenn nötig
+				\item Ermöglicht unendliche Strukturen
+			\end{itemize}
+		\end{itemize}
+	}
+	\frame{
+		\frametitle{Beispiele}
+		\begin{center}
+			Haskell Beispiele
+		\end{center}
+	}
+		\frame{
+		\frametitle{Logisch?}
+		\begin{itemize}
+			\item basierend auf mathematischer Logik
+			\item Programm ist Menge von Axiomen und Folgerungen
+			\item Interpreter versucht Anfrage zu "'beweisen"'
+			\item Mehrere Lösungen für Anfrage möglich
+		\end{itemize}
+	}
+	\frame{
+		\frametitle{Beispiele}
+		\begin{center}
+			Prolog Beispiele
+		\end{center}
+	}
+	\section{Esoterische Sprachen}
+	\subsection{}
+	\frame{
+		\frametitle{Esoterischer Sprachen - Motivation}
+		\begin{itemize}
+			\item nicht für den praktischen Einsatz gedacht
+			\item ungewöhnliche Konzepte / Syntax
+			\item Spaß
+			\item ungewöhnliche Ziele
+		\end{itemize}
+	}
+	\frame{
+		\frametitle{Brainfuck}
+		\begin{itemize}
+			\item Ziele:
+			\begin{itemize}
+				\item touringmaschinenähnlich
+				\item möglichst kleiner Compiler
+			\end{itemize}
+		\end{itemize}
+	}
+	\frame{
+		\frametitle{Brainfuck - Befehle}
+		\begin{itemize}
+			\item \flq Zeiger inkrementieren
+			\item \frq Zeiger dekrementieren
+			\item + Wert inkrementieren
+			\item - Wert dekrementieren
+			\item . Wert als ASCII Zeichen ausgeben
+			\item , Wert als ASCII Zeichen einlesen
+			\item \lbrack Sprung nach vorne hinter passendes \rbrack
+			\item \rbrack Sprung zurück wenn Wert ungleich Null
+		\end{itemize}
+	}
+	\frame{
+		\frametitle{Ook!}
+		\begin{itemize}
+			\item Brainfuck Dialekt mit leicht anderer Zielsetzung:
+			\begin{enumerate}
+				\item Eine Programmiersprache sollte schreib- und lesbar für Orang-Utans sein
+				\item Die Syntax sollte einfach sein, leicht zu merken und das Wort Affe vermeiden
+				\item Bananen sind gut!
+			\end{enumerate}
+			\item Es gibt drei Syntaxelemente, von denen jeweils zwei zu einem Ook-Tupel zusammengefasst werden
+		\end{itemize}
+	}
+	\begin{frame}[containsverbatim]
+		\frametitle{Brainfuck - Hello World}
+		\begin{center}
+			\lstinputlisting[language={}]{./listings/brainfuck-helloworld.txt}
+		\end{center}
+	\end{frame}
+	\begin{frame}[containsverbatim]
+		\frametitle{Ook - Hello World}
+		\begin{center}
+			\lstinputlisting[language={}]{./listings/ook-helloworld.txt}
+		\end{center}
+	\end{frame}
+	\frame{
+		\frametitle{Chef und SPL}
+		\begin{itemize}
+			\item Chef: Programmiersprache soll sich lesen wie ein Kochrezept
+			\item Variablen = Zutaten, Stacks = Rührschüsseln, Befehle = mischen, rühren, backen...
+			\item Shakespeare Programming Language: soll sich lesen wie ein Sonett
+			\item ermöglichen sehr viel Freiheit bei der Ausgestaltung eines Programms
+		\end{itemize}
+	}
+	\begin{frame}[containsverbatim]
+		\frametitle{Chef - Hello World}
+		\begin{center}
+			\lstinputlisting[language={}]{./listings/chef-helloworld.txt}
+		\end{center}
+	\end{frame}
+	\frame{
+		\frametitle{Malbolge}
+		\begin{itemize}
+			\item Ziel: Schlimmstmögliche Programmiersprache
+			\item Verwendet den ASCII Wert eines Zeichens als Befehl
+			\item - Effekt eines Befehls hängt von Speicherstelle ab (modulo 94)
+			\item - und plus einen Zähler (auch auf Datenpointer)
+			\item - Speicherzugriffe nur ternär
+			\item - nur unconditional jumps
+			\item So kompliziert, dass das erste lauffähige Malbolge Programm von einem Suchalgorithmus gefunden wurde......
+		\end{itemize}
+	}
+	\begin{frame}[containsverbatim]
+		\frametitle{Malbolge - Hello World}
+		\begin{center}
+			\lstinputlisting[language={}]{./listings/malbolge-helloworld.txt}
+		\end{center}
+	\end{frame}
+	\section{Beispiele, Fragen, Abschluss}
+	\subsection{}
+	\frame{
+		\frametitle{Noch Fragen?}
+		\begin{center}
+			{\bf \Large Gibt es noch Fragen oder Unklarheiten?}
+		\end{center}
+	}
+	\frame{
+		\frametitle{Dann bleibt nur noch...}
+		\begin{center}
+			{\bf \Large Vielen Dank für Ihre Aufmerksamkeit!}
+		\end{center}
+	}
+\end{document}
