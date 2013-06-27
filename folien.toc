@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {ngerman}
+\beamer@sectionintoc {1}{\IeC {\"U}bersicht}{2}{0}{1}
+\beamer@sectionintoc {2}{Eine kurze Geschichte}{3}{0}{2}
+\beamer@sectionintoc {3}{Sprachen und Paradigmen}{10}{0}{3}
+\beamer@sectionintoc {4}{Codegolf}{21}{0}{4}
+\beamer@sectionintoc {5}{Esoterische Sprachen}{24}{0}{5}
+\beamer@sectionintoc {6}{Beispiele, Fragen, Abschluss}{34}{0}{6}
