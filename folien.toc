@@ -4,5 +4,5 @@
 \beamer@sectionintoc {2}{Eine kurze Geschichte}{3}{0}{2}
 \beamer@sectionintoc {3}{Sprachen und Paradigmen}{10}{0}{3}
 \beamer@sectionintoc {4}{Codegolf und andere Sp\IeC {\"a}\IeC {\ss }e}{21}{0}{4}
-\beamer@sectionintoc {5}{Esoterische Sprachen}{26}{0}{5}
-\beamer@sectionintoc {6}{Beispiele, Fragen, Abschluss}{36}{0}{6}
+\beamer@sectionintoc {5}{Esoterische Sprachen}{28}{0}{5}
+\beamer@sectionintoc {6}{Beispiele, Fragen, Abschluss}{38}{0}{6}
