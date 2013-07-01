@@ -1,17 +1,11 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.16)  28 JUN 2013 12:32
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.5.7)  1 JUL 2013 09:29
 entering extended mode
  %&-line parsing enabled.
 **folien.tex
 (./folien.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
-ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
-9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
-skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
-orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
-, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
-rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+yphenation, loaded.
 (/usr/share/texmf/tex/latex/beamer/base/beamer.cls
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasercs.sty
 Package: beamerbasercs 2010/06/12 (rcs-revision c3821710bb40)
@@ -90,7 +84,7 @@ Package: geometry 2008/12/21 v4.2 Page Geometry
 
 (/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in pdf mode detected.
+Package ifpdf Info: pdfTeX in pdf mode not detected.
 )
 (/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
@@ -104,8 +98,7 @@ Package ifvtex Info: VTeX not detected.
 \Gm@odd@mp=\dimen121
 \Gm@even@mp=\dimen122
 \Gm@dimlist=\toks15
-
-(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
+)
 (/usr/share/texmf-texlive/tex/latex/base/size11.clo
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
@@ -122,11 +115,10 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 (/etc/texmf/tex/latex/config/graphics.cfg
 File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: dvips.def on input line 91.
 
-(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
-\Gread@gobject=\count105
+(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
 \Gin@req@height=\dimen123
 \Gin@req@width=\dimen124
@@ -165,21 +157,22 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 \pgf@yc=\dimen132
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count106
-\c@pgf@countb=\count107
-\c@pgf@countc=\count108
-\c@pgf@countd=\count109
+\c@pgf@counta=\count105
+\c@pgf@countb=\count106
+\c@pgf@countc=\count107
+\c@pgf@countd=\count108
 
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+Package pgfsys Info: Driver file for pgf: pgfsys-dvips.def on input line 900.
 
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-dvips.def
+File: pgfsys-dvips.def 2008/04/03  (rcs-revision 1.20)
 
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-postscript.def
+File: pgfsys-common-postscript.def 2008/10/01  (rcs-revision 1.22)
+\pgf@objectcount=\count109
 )))
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
@@ -195,9 +188,8 @@ Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 (/etc/texmf/tex/latex/config/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: dvips.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
@@ -415,11 +407,18 @@ Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 
 Hyperref stopped early
 )
-*hyperref using default driver hpdftex*
-(/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
+*hyperref using default driver hdvips*
+(/usr/share/texmf-texlive/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2009/10/09 v6.79a Hyperref driver for dvips
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2009/10/09 v6.79a Hyperref definitions for pdfmark specials
+\pdf@docset=\toks24
+\pdf@box=\box40
+\pdf@toks=\toks25
+\pdf@defaulttoks=\toks26
 \Fld@listcount=\count122
-)
+))
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaserequires.sty
 Package: beamerbaserequires 2010/05/01  (rcs-revision efa082c6111d)
 
@@ -434,7 +433,7 @@ Package: amssymb 2009/06/22 v3.00
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
-\@emptytoks=\toks24
+\@emptytoks=\toks27
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -472,9 +471,9 @@ Package: beamerbasesection 2010/06/17  (rcs-revision e0d9401bb743)
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseframe.sty
 Package: beamerbaseframe 2010/06/06  (rcs-revision bff0a9294b45)
-\beamer@framebox=\box40
-\beamer@frametitlebox=\box41
-\beamer@zoombox=\box42
+\beamer@framebox=\box41
+\beamer@frametitlebox=\box42
+\beamer@zoombox=\box43
 \beamer@zoomcount=\count130
 \beamer@zoomframecount=\count131
 \beamer@frametextheight=\dimen160
@@ -483,7 +482,7 @@ Package: beamerbaseframe 2010/06/06  (rcs-revision bff0a9294b45)
 \beamer@framebottomskip=\skip46
 \beamer@frametopskipautobreak=\skip47
 \beamer@framebottomskipautobreak=\skip48
-\beamer@envbody=\toks25
+\beamer@envbody=\toks28
 \c@framenumber=\count133
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseverbatim.sty
@@ -492,40 +491,40 @@ Package: beamerbaseverbatim 2010/05/01  (rcs-revision efa082c6111d)
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseframesize.sty
 Package: beamerbaseframesize 2010/06/27  (rcs-revision 6baa2d92e6f1)
-\beamer@splitbox=\box43
+\beamer@splitbox=\box44
 \beamer@autobreakcount=\count134
 \beamer@autobreaklastheight=\dimen161
-\beamer@frametitletoks=\toks26
-\beamer@framesubtitletoks=\toks27
+\beamer@frametitletoks=\toks29
+\beamer@framesubtitletoks=\toks30
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseframecomponents.sty
 Package: beamerbaseframecomponents 2010/07/12  (rcs-revision 09e82992d9b1)
-\beamer@footins=\box44
+\beamer@footins=\box45
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasecolor.sty
 Package: beamerbasecolor 2010/06/06  (rcs-revision d1a9b48be06d)
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasenotes.sty
 Package: beamerbasenotes 2010/05/01  (rcs-revision efa082c6111d)
-\beamer@frameboxcopy=\box45
+\beamer@frameboxcopy=\box46
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasetoc.sty
 Package: beamerbasetoc 2010/06/11  (rcs-revision 242ecaa6783b)
 )
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasetemplates.sty
 Package: beamerbasetemplates 2010/05/01  (rcs-revision efa082c6111d)
-\beamer@sbttoks=\toks28
+\beamer@sbttoks=\toks31
 
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseauxtemplates.sty
 Package: beamerbaseauxtemplates 2010/05/01  (rcs-revision efa082c6111d)
 
 (/usr/share/texmf/tex/latex/beamer/base/beamerbaseboxes.sty
 Package: beamerbaseboxes 2010/05/01  (rcs-revision efa082c6111d)
-\bmb@box=\box46
-\bmb@colorbox=\box47
-\bmb@boxshadow=\box48
-\bmb@boxshadowball=\box49
-\bmb@boxshadowballlarge=\box50
+\bmb@box=\box47
+\bmb@colorbox=\box48
+\bmb@boxshadow=\box49
+\bmb@boxshadowball=\box50
+\bmb@boxshadowballlarge=\box51
 \bmb@temp=\dimen162
 \bmb@dima=\dimen163
 \bmb@dimb=\dimen164
@@ -538,7 +537,7 @@ Package: beamerbaselocalstructure 2010/06/01  (rcs-revision 81f9e33f7cc2)
 
 (/usr/share/texmf-texlive/tex/latex/tools/enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
-\@enLab=\toks29
+\@enLab=\toks32
 )
 \c@figure=\count135
 \c@table=\count136
@@ -561,7 +560,7 @@ Package: amstext 2000/06/29 v2.01
 
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks30
+\@emptytoks=\toks33
 \ex@=\dimen167
 ))
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
@@ -581,8 +580,8 @@ LaTeX Info: Redefining \overline on input line 307.
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
+\Mathstrutbox@=\box52
+\strutbox@=\box53
 \big@size=\dimen169
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
@@ -591,35 +590,35 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \dotsspace@=\muskip11
 \c@parentequation=\count144
 \dspbrk@lvl=\count145
-\tag@help=\toks31
+\tag@help=\toks34
 \row@=\count146
 \column@=\count147
 \maxfields@=\count148
-\andhelp@=\toks32
+\andhelp@=\toks35
 \eqnshift@=\dimen170
 \alignsep@=\dimen171
 \tagshift@=\dimen172
 \tagwidth@=\dimen173
 \totwidth@=\dimen174
 \lineht@=\dimen175
-\@envbody=\toks33
+\@envbody=\toks36
 \multlinegap=\skip52
 \multlinetaggap=\skip53
-\mathdisplay@stack=\toks34
+\mathdisplay@stack=\toks37
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
 (/usr/share/texmf-texlive/tex/latex/amscls/amsthm.sty
 Package: amsthm 2004/08/06 v2.20
-\thm@style=\toks35
-\thm@bodyfont=\toks36
-\thm@headfont=\toks37
-\thm@notefont=\toks38
-\thm@headpunct=\toks39
+\thm@style=\toks38
+\thm@bodyfont=\toks39
+\thm@headfont=\toks40
+\thm@notefont=\toks41
+\thm@headpunct=\toks42
 \thm@preskip=\skip54
 \thm@postskip=\skip55
 \thm@headsep=\skip56
-\dth@everypar=\toks40
+\dth@everypar=\toks43
 )
 \c@theorem=\count149
 )
@@ -645,7 +644,7 @@ Package: beamerinnerthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
 (/usr/share/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemedefault.st
 y
 Package: beamerouterthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
-))) (./praeambel.tex (/var/lib/texmf/tex/generic/babel/babel.sty
+))) (./praeambel.tex (/usr/share/texmf-texlive/tex/generic/babel/babel.sty
 Package: babel 2008/07/06 v3.8l The Babel package
 
 (/usr/share/texmf-texlive/tex/generic/babel/ngermanb.ldf
@@ -657,13 +656,18 @@ LaTeX Info: Redefining \textlatin on input line 82.
 \babel@savecnt=\count150
 \U@D=\dimen178
 )
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `ngerman'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@ngerman = a dialect from \language0
 \l@naustrian = a dialect from \language\l@ngerman 
 Package babel Info: Making " an active character on input line 92.
-))
-(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+)) (/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks41
-\inpenc@posthook=\toks42
+\inpenc@prehook=\toks44
+\inpenc@posthook=\toks45
 
 (/usr/share/texmf-texlive/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
@@ -881,8 +885,8 @@ Now handling font encoding PD1 ...
 ))
 (/usr/share/texmf-texlive/tex/latex/listings/listings.sty
 \lst@mode=\count151
-\lst@gtempboxa=\box53
-\lst@token=\toks43
+\lst@gtempboxa=\box54
+\lst@token=\toks46
 \lst@length=\count152
 \lst@currlwidth=\dimen179
 \lst@column=\count153
@@ -897,7 +901,7 @@ Now handling font encoding PD1 ...
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 \c@lstnumber=\count157
 \lst@skipnumbers=\count158
-\lst@framebox=\box54
+\lst@framebox=\box55
 )
 (/usr/share/texmf-texlive/tex/latex/listings/listings.cfg
 File: listings.cfg 2007/02/22 1.4 listings configuration
@@ -937,7 +941,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 
 *geometry auto-detecting driver*
-*geometry detected driver: pdftex*
+*geometry detected driver: dvips*
 -------------------- Geometry parameters
 paper: user defined
 landscape: --
@@ -955,7 +959,7 @@ truedimen: --
 includehead: true
 includefoot: true
 includemp: --
-driver: pdftex
+driver: dvips
 -------------------- Page layout dimensions and switches
 \paperwidth  364.19536pt
 \paperheight 273.14662pt
@@ -977,19 +981,7 @@ driver: pdftex
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count159
-\scratchdimen=\dimen183
-\scratchbox=\box55
-\nofMPsegments=\count160
-\nofMParguments=\count161
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count162
-\MPscratchDim=\dimen184
-\MPnumerator=\count163
-\everyMPtoPDFconversion=\toks45
-) ABD: EveryShipout initializing macros
+ABD: EveryShipout initializing macros
 Package hyperref Info: Link coloring OFF on input line 6.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
@@ -998,7 +990,7 @@ Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count164
+\c@section@level=\count159
 )
 LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
@@ -1075,11 +1067,11 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-\c@lstlisting=\count165
+\c@lstlisting=\count160
  (./folien.nav)
 Overfull \hbox (34.5139pt too wide) detected at line 6
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 
@@ -1088,16 +1080,15 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 
 
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+[1
 
 ]
 LaTeX Font Info:    Try loading font information for U+msa on input line 20.
-
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 20.
@@ -1106,123 +1097,163 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 20.
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [2
 
-] <./images/webstuhl.jpg, id=223, 601.24625pt x 602.25pt>
-File: ./images/webstuhl.jpg Graphic file (type jpg)
+]
 
-<use ./images/webstuhl.jpg>
+! LaTeX Error: Cannot determine size of graphic in ./images/webstuhl.jpg (no Bo
+undingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 	\end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: ./images/webstuhl.jpg Graphic file (type eps)
+<./images/webstuhl.jpg>
 Overfull \hbox (128.0374pt too wide) in paragraph at lines 39--39
 [][][]  
  []
 
 
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [3
 
- <./images/webstuhl.jpg>]
-<./images/bug.jpg, id=275, 165.61874pt x 130.23656pt>
-File: ./images/bug.jpg Graphic file (type jpg)
- <use ./images/bug.jpg>
-Overfull \hbox (165.61833pt too wide) in paragraph at lines 55--55
+]
+
+! LaTeX Error: Cannot determine size of graphic in ./images/bug.jpg (no Boundin
+gBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 	\end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: ./images/bug.jpg Graphic file (type eps)
+<./images/bug.jpg>
+Overfull \hbox (72.26999pt too wide) in paragraph at lines 55--55
 [][][]  
  []
 
 
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [4
 
- <./images/bug.jpg>]
+]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [5
 
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [6
 
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [7
 
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [8
 
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [9
 
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [10
 
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [11
 
-] <./images/ducktyping.jpg, id=679, 72.27pt x 41.4348pt>
-File: ./images/ducktyping.jpg Graphic file (type jpg)
+]
 
-<use ./images/ducktyping.jpg>
+! LaTeX Error: Cannot determine size of graphic in ./images/ducktyping.jpg (no 
+BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.144 	}
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: ./images/ducktyping.jpg Graphic file (type eps)
+<./images/ducktyping.jpg>
+Overfull \vbox (106.06068pt too high) detected at line 144
+ []
+
+
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [12
 
- <./images/ducktyping.jpg>]
+]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [13
 
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [14
@@ -1247,67 +1278,75 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 
 )
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [15
 
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [16
 
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [17
 
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [18
 
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [19
 
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [20
 
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [21
 
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [22
+
+]
+Overfull \hbox (34.5139pt too wide) has occurred while \output is active
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
+ []
+
+[23
 
 ]
 \openout4 = `folien.vrb'.
@@ -1319,40 +1358,40 @@ File: lstlang1.sty 2004/09/05 1.3 listings language file
 File: lstlang2.sty 2004/09/05 1.3 listings language file
 ))
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
- []
-
-[23
-
-]
-Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [24
 
 ]
-\openout4 = `folien.vrb'.
-
- (./folien.vrb (/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2004/09/05 1.3 listings language file
-))
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [25
 
 ]
+\openout4 = `folien.vrb'.
+
+ (./folien.vrb (/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+))
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [26
+
+]
+Overfull \hbox (34.5139pt too wide) has occurred while \output is active
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
+ []
+
+[27
 
 ]
 \openout4 = `folien.vrb'.
@@ -1360,116 +1399,116 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
  (./folien.vrb (/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 ))
-Overfull \vbox (121.78635pt too high) detected at line 324
+Overfull \vbox (121.78635pt too high) detected at line 332
  []
 
 
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
- []
-
-[27
-
-]
-Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [28
 
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [29
 
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [30
 
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [31
 
-] (./listings/brainfuck-helloworld.txt)
+]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [32
 
-] (./listings/ook-helloworld.txt)
+] (./listings/brainfuck-helloworld.txt)
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [33
 
-]
+] (./listings/ook-helloworld.txt)
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [34
 
-] (./listings/chef-helloworld.txt)
-Overfull \vbox (7.78635pt too high) detected at line 397
- []
-
-
+]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [35
 
-]
+] (./listings/chef-helloworld.txt)
+Overfull \vbox (7.78635pt too high) detected at line 405
+ []
+
+
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [36
 
-] (./listings/malbolge-helloworld.txt)
+]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [37
 
-]
+] (./listings/malbolge-helloworld.txt)
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [38
 
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
-  [] [][] [][][][][][][][] [][][][][][][][][][][][] [][][][][][][][] [][][][][]
-[][][][][][] [][][]  
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
  []
 
 [39
+
+]
+Overfull \hbox (34.5139pt too wide) has occurred while \output is active
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][] [][][][][][][][] [][][][]
+[][][][][][][] [][][]  
+ []
+
+[40
 
 ]
 \tf@nav=\write6
@@ -1491,24 +1530,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 17431 strings out of 493848
- 310262 string characters out of 1152823
- 1179494 words of memory out of 3000000
- 20141 multiletter control sequences out of 15000+50000
+ 17011 strings out of 495062
+ 304667 string characters out of 1182645
+ 947731 words of memory out of 3000000
+ 19719 multiletter control sequences out of 15000+50000
  12147 words of font info for 45 fonts, out of 3000000 for 9000
- 714 hyphenation exceptions out of 8191
- 49i,19n,59p,395b,1475s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/shar
-e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
-/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msa
-m10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msam7.pfb
->
-Output written on folien.pdf (39 pages, 619464 bytes).
-PDF statistics:
- 2141 PDF objects out of 2487 (max. 8388607)
- 91 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 hyphenation exceptions out of 8191
+ 49i,20n,64p,944b,1475s stack positions out of 5000i,500n,10000p,200000b,50000s
 
+Output written on folien.dvi (40 pages, 1477832 bytes).
