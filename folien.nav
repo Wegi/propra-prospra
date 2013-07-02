@@ -97,16 +97,22 @@
 \headcommand {\beamer@framepages {38}{38}}
 \headcommand {\slideentry {5}{1}{10}{39/39}{}{0}}
 \headcommand {\beamer@framepages {39}{39}}
-\headcommand {\sectionentry {6}{Beispiele, Fragen, Abschluss}{40}{Beispiele, Fragen, Abschluss}{0}}
-\headcommand {\beamer@sectionpages {30}{39}}
-\headcommand {\beamer@subsectionpages {30}{39}}
-\headcommand {\beamer@subsectionentry {0}{6}{1}{40}{}}\headcommand {\beamer@subsectionpages {40}{39}}
-\headcommand {\slideentry {6}{1}{1}{40/40}{}{0}}
+\headcommand {\slideentry {5}{1}{11}{40/40}{}{0}}
 \headcommand {\beamer@framepages {40}{40}}
-\headcommand {\slideentry {6}{1}{2}{41/41}{}{0}}
+\headcommand {\slideentry {5}{1}{12}{41/41}{}{0}}
 \headcommand {\beamer@framepages {41}{41}}
-\headcommand {\beamer@partpages {1}{41}}
-\headcommand {\beamer@subsectionpages {40}{41}}
-\headcommand {\beamer@sectionpages {40}{41}}
-\headcommand {\beamer@documentpages {41}}
-\headcommand {\def \inserttotalframenumber {41}}
+\headcommand {\slideentry {5}{1}{13}{42/42}{}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\sectionentry {6}{Beispiele, Fragen, Abschluss}{43}{Beispiele, Fragen, Abschluss}{0}}
+\headcommand {\beamer@sectionpages {30}{42}}
+\headcommand {\beamer@subsectionpages {30}{42}}
+\headcommand {\beamer@subsectionentry {0}{6}{1}{43}{}}\headcommand {\beamer@subsectionpages {43}{42}}
+\headcommand {\slideentry {6}{1}{1}{43/43}{}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\slideentry {6}{1}{2}{44/44}{}{0}}
+\headcommand {\beamer@framepages {44}{44}}
+\headcommand {\beamer@partpages {1}{44}}
+\headcommand {\beamer@subsectionpages {43}{44}}
+\headcommand {\beamer@sectionpages {43}{44}}
+\headcommand {\beamer@documentpages {44}}
+\headcommand {\def \inserttotalframenumber {44}}

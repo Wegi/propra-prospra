@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.16)  1 JUL 2013 14:16
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.16)  1 JUL 2013 15:42
 entering extended mode
  %&-line parsing enabled.
 **folien.tex
@@ -1079,7 +1079,7 @@ Dictionary: translator-theorem-dictionary, Language: English
  (./folien.nav)
 Overfull \hbox (34.5139pt too wide) detected at line 6
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 
@@ -1089,7 +1089,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -1107,12 +1107,12 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [2
 
-] <./images/webstuhl.jpg, id=231, 601.24625pt x 602.25pt>
+] <./images/webstuhl.jpg, id=243, 601.24625pt x 602.25pt>
 File: ./images/webstuhl.jpg Graphic file (type jpg)
 
 <use ./images/webstuhl.jpg>
@@ -1123,13 +1123,13 @@ Overfull \hbox (128.0374pt too wide) in paragraph at lines 39--39
 
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [3
 
  <./images/webstuhl.jpg>]
-<./images/bug.jpg, id=285, 165.61874pt x 130.23656pt>
+<./images/bug.jpg, id=300, 165.61874pt x 130.23656pt>
 File: ./images/bug.jpg Graphic file (type jpg)
  <use ./images/bug.jpg>
 Overfull \hbox (165.61833pt too wide) in paragraph at lines 55--55
@@ -1139,7 +1139,7 @@ Overfull \hbox (165.61833pt too wide) in paragraph at lines 55--55
 
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [4
@@ -1147,7 +1147,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
  <./images/bug.jpg>]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [5
@@ -1155,7 +1155,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [6
@@ -1163,7 +1163,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [7
@@ -1171,7 +1171,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [8
@@ -1179,7 +1179,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [9
@@ -1187,7 +1187,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [10
@@ -1195,18 +1195,18 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [11
 
-] <./images/ducktyping.jpg, id=705, 72.27pt x 41.4348pt>
+] <./images/ducktyping.jpg, id=744, 72.27pt x 41.4348pt>
 File: ./images/ducktyping.jpg Graphic file (type jpg)
 
 <use ./images/ducktyping.jpg>
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [12
@@ -1214,7 +1214,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
  <./images/ducktyping.jpg>]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [13
@@ -1222,7 +1222,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [14
@@ -1248,7 +1248,7 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 )
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [15
@@ -1256,7 +1256,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [16
@@ -1264,7 +1264,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [17
@@ -1272,7 +1272,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [18
@@ -1280,25 +1280,25 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [19
 
 ]
-<images/65885-ibms-watson-computer-system.jpg, id=1126, 451.6875pt x 243.91125p
+<images/65885-ibms-watson-computer-system.jpg, id=1189, 451.6875pt x 243.91125p
 t>
 File: images/65885-ibms-watson-computer-system.jpg Graphic file (type jpg)
  <use images/65885-ibms-watson-computer-system.jpg>
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [20
 
  <./images/65885-ibms-watson-computer-system.jpg>]
-<images/3v15kr.jpg, id=1179, 496.85625pt x 310.15875pt>
+<images/3v15kr.jpg, id=1245, 496.85625pt x 310.15875pt>
 File: images/3v15kr.jpg Graphic file (type jpg)
 
 <use images/3v15kr.jpg>
@@ -1308,7 +1308,7 @@ Overfull \vbox (6.97859pt too high) detected at line 228
 
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [21
@@ -1316,7 +1316,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
  <./images/3v15kr.jpg>]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [22
@@ -1324,7 +1324,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [23
@@ -1332,7 +1332,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [24
@@ -1348,7 +1348,7 @@ File: lstlang2.sty 2004/09/05 1.3 listings language file
 ))
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [25
@@ -1356,7 +1356,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [26
@@ -1369,7 +1369,7 @@ File: lstlang1.sty 2004/09/05 1.3 listings language file
 ))
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [27
@@ -1377,7 +1377,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [28
@@ -1394,7 +1394,7 @@ Overfull \vbox (121.78635pt too high) detected at line 347
 
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [29
@@ -1402,7 +1402,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [30
@@ -1410,7 +1410,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [31
@@ -1418,7 +1418,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [32
@@ -1426,7 +1426,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [33
@@ -1434,7 +1434,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ] (./listings/brainfuck-helloworld.txt)
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [34
@@ -1442,7 +1442,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ] (./listings/ook-helloworld.txt)
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [35
@@ -1450,7 +1450,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [36
@@ -1462,7 +1462,7 @@ Overfull \vbox (7.78635pt too high) detected at line 420
 
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [37
@@ -1470,7 +1470,7 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ]
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [38
@@ -1478,26 +1478,56 @@ Overfull \hbox (34.5139pt too wide) has occurred while \output is active
 ] (./listings/malbolge-helloworld.txt)
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [39
 
-]
+] (./listings/befunge.txt)
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [40
 
-]
+] <images/Whitespace.png, id=2351, 646.415pt x 413.545pt>
+File: images/Whitespace.png Graphic file (type png)
+
+<use images/Whitespace.png>
 Overfull \hbox (34.5139pt too wide) has occurred while \output is active
   [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
-[][][][][][][][] [][][]  
+[][][][][][][][][][][] [][][]  
  []
 
 [41
+
+ <./images/Whitespace.png (PNG copy)>]
+<images/piet.png, id=2407, 143.53625pt x 143.53625pt>
+File: images/piet.png Graphic file (type png)
+ <use images/piet.png>
+Overfull \hbox (34.5139pt too wide) has occurred while \output is active
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
+[][][][][][][][][][][] [][][]  
+ []
+
+[42
+
+ <./images/piet.png (PNG copy)>]
+Overfull \hbox (34.5139pt too wide) has occurred while \output is active
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
+[][][][][][][][][][][] [][][]  
+ []
+
+[43
+
+]
+Overfull \hbox (34.5139pt too wide) has occurred while \output is active
+  [] [][] [][][][][][][][] [][][][][][][][][][][][][][] [][][][][][][][] [][][]
+[][][][][][][][][][][] [][][]  
+ []
+
+[44
 
 ]
 \tf@nav=\write6
@@ -1519,10 +1549,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 17450 strings out of 493848
- 310672 string characters out of 1152823
- 1181485 words of memory out of 3000000
- 20153 multiletter control sequences out of 15000+50000
+ 17478 strings out of 493848
+ 311054 string characters out of 1152823
+ 1184763 words of memory out of 3000000
+ 20169 multiletter control sequences out of 15000+50000
  12147 words of font info for 45 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  49i,19n,59p,395b,1475s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1534,9 +1564,9 @@ type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/public
 /cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msa
 m10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msam7.pfb
 >
-Output written on folien.pdf (41 pages, 716436 bytes).
+Output written on folien.pdf (44 pages, 780407 bytes).
 PDF statistics:
- 2329 PDF objects out of 2487 (max. 8388607)
- 95 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2628 PDF objects out of 2984 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 

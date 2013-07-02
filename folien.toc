@@ -5,4 +5,4 @@
 \beamer@sectionintoc {3}{Sprachen und Paradigmen}{10}{0}{3}
 \beamer@sectionintoc {4}{Codegolf und andere Sp\IeC {\"a}\IeC {\ss }e}{23}{0}{4}
 \beamer@sectionintoc {5}{Esoterische Sprachen}{30}{0}{5}
-\beamer@sectionintoc {6}{Beispiele, Fragen, Abschluss}{40}{0}{6}
+\beamer@sectionintoc {6}{Beispiele, Fragen, Abschluss}{43}{0}{6}
